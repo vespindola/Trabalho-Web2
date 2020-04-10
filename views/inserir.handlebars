@@ -1,0 +1,39 @@
+<form name="form1" clas="formulario" action="controllerForm" method="post">
+
+    {{!-- <input type="text" name="id" id="id" placeholder="Id:"><br>
+    <input type="text" name="name" id="name" placeholder="Name:"><br>
+    <input type="text" name="description" id="description" placeholder="Description:"><br>
+    <input type="text" name="start_date" start_date="start_date" placeholder="Start_date:"><br>
+    <input type="text" name="end_date" id="end_date" placeholder="End_date:"><br>
+    <input type="text" name="priority" id="priority" placeholder="Priority:"><br>
+
+    <input type="submit" name="btnSubmit" id="btnSubmit" value="Salvar"><br> --}}
+
+    <div class="field">
+        <label for="Id">Id:</label>
+        <input type="text" id="id" name="id" placeholder="Digite o id">
+    </div>
+    <div class="field">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu nome">
+    </div>
+    <div class="field">
+        <label for="description">Sua Tarefa:</label>
+        <input type="text" name="description" id="description" placeholder="Description:">
+    </div>
+    <div class="field">
+        <label for="start_date">Data inicial:</label>
+        <input type="text" name="start_date" start_date="start_date" placeholder="Start_date:">
+    </div>
+    <div class="field">
+        <label for="end_date">Data Final:</label>
+        <input type="text" name="end_date" id="end_date" placeholder="End_date:"><br>
+    </div>
+    <div class="field radiobox">
+        <span>Prioridade</span>
+        <input type="radio" name="priority" id="sim" value="Normal" checked><label for="Normal">Normal</label>
+        <input type="radio" name="priority" id="nao" value="Urgente"><label for="Urgente">Urgente</label>
+    </div>
+
+    <input type="submit" name="btnSubmit" id="btnSubmit" value="Salvar"><br>
+</form>

@@ -1,0 +1,21 @@
+{
+  "name": "vinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cucumber": "^6.0.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

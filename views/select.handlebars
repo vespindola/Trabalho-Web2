@@ -1,0 +1,26 @@
+<meta http-equiv="refresh" content="10">
+<table>
+    <tr>
+        <td>Action</td>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Description</td>
+        <td>Start_date</td>
+        <td>End_date</td>
+        <td>Priority</td>
+    </tr>
+    {{#data}}
+        <tr>
+            <td>
+                <a href="update/{{id}}"><img src="/img/edit_26px.png"></a>
+                <a href="deletar/{{id}}" class="deletar"><img src="/img/Lixeira.png"></a>
+            </td>
+            <td>{{id}}</td>
+            <td>{{name}}</td>
+            <td>{{description}}</td>
+            <td>{{start_date}}</td>
+            <td>{{end_date}}</td>
+            <td>{{priority}}</td>
+        </tr>
+    {{/data}}
+</table>
